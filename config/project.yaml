@@ -1,0 +1,14 @@
+project:
+  name: "Example Organization"
+  slug: "example-organization"
+
+repositories:
+  - name: "core"
+    url: "https://github.com/example/core.git"
+    branch: "main"
+    enabled: true
+
+  - name: "application-a"
+    url: "https://github.com/example/application-a.git"
+    branch: "main"
+    enabled: true
