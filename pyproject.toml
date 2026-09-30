@@ -14,6 +14,10 @@ dependencies = [
   "mcp>=1.0"
 ]
 
+[project.scripts]
+centralized-knowledge-graph = "centralized_knowledge_graph.cli:main"
+
+
 [build-system]
 requires = ["setuptools>=75"]
 build-backend = "setuptools.build_meta"
